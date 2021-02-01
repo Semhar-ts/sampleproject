@@ -3,29 +3,33 @@
   font-weight: bold;
   font-size: 18px;
   text-align: right;
+  text-align: left;
+  font-family: pt sans caption;
 }
 
 #headline {
   color: gray;
   font-size: 60px;
+.headline {
+  color: darkblue;
+  font-size: 100px;
+  text-align: center;
+  font-family: oriya mn;
 }
 
 .image {
-  background-image: url("https://www.rd.com/wp-content/uploads/2019/05/American-shorthair-cat.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 900px;
-}
-
-.caption {
-  font-size: 20px;
-  font-style: italic;
-  display: block;
-  background-color: white;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
+@@ -27,4 +30,13 @@
   top: 80%;
   width: 15%;
   opacity: 0.65;
+} 
 }
+
+.jumbotron {
+  background-color: #bee5d3 !important;
+}
+
+.carousel-inner img {
+  width: 90%;
+  height: 90%;
+} 
