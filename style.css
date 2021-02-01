@@ -18,12 +18,12 @@
 }
 
 .image {
-@@ -27,4 +30,13 @@
+
   top: 80%;
   width: 15%;
   opacity: 0.65;
 } 
-}
+
 
 .jumbotron {
   background-color: #bee5d3 !important;
